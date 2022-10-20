@@ -1,0 +1,28 @@
+.operation-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 25px;
+    min-height: 100vh;
+}
+.operation-button button {
+    border-radius: 50px;
+    font-size: 25px;
+    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.operation-button .btn-secondary {
+    background-color: #3ba734;
+    border: none;
+}
+.operation-button .counter-text {
+    display: block;
+    min-width: 250px;
+    text-align: center;
+    background: #e9e9e9;
+    padding: 10px;
+    border-radius: 50px;
+}   
